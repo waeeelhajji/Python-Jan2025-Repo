@@ -11,6 +11,6 @@
 
 <br/>
 
-<img src="https://www.ntuclearninghub.com/documents/39367/7431407/python-programming%20fundamentals.jpg/0f980a00-ced6-85e7-3d57-fa1651dd572b/" alt="Webfun logo" width="180" >
+<img src="https://www.ntuclearninghub.com/documents/39367/7431407/python-programming%20fundamentals.jpg/0f980a00-ced6-85e7-3d57-fa1651dd572b/" alt="Webfun logo" width="380" >
 
 
