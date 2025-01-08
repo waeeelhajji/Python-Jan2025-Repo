@@ -1,4 +1,4 @@
-# WebFun-Dec2024-Repo
+# Python-Jan2025-Repo
 
 ## Step 1 : `fork` 🍴
 ## Step 2 : `code` 📜
