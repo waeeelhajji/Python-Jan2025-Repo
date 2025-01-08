@@ -3,7 +3,6 @@
   remove the item at that index.
   return the removed item
   
-  No built-in array methods except pop().
 */
 
 //!   No built-in array methods except pop().
