@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{url_for('static', filename="style.css")}}">
+</head>
+<body>
+
+    <h1>All users</h1>
+    <h3>{{app_name}}</h3>
+    <img src="{{url_for('static', filename='images/fullStack.png')}}" alt="full stack app">
+    <ul>
+        {% for one_user in all_users_from_python %}
+            {% if one_user.id == 1 %}
+            <li style="color: red;"> {{one_user.name}} and the id is: {{one_user.id}} </li>
+            {% else %}
+            <li style="color: blue;"> {{one_user.name}} and the id is: {{one_user.id}} </li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+</body>
+</html>
