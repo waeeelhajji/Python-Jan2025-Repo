@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>User Form</h1>
+    <a href="/clear">Clear</a>
+    <form action="/submit_form" method="post">
+      <label for="">User name</label>
+      <input type="text" name="user_name"/>
+      <label for="">Message</label>
+      <input type="text" name="message" />
+      <input type="submit" value="Send" />
+    </form>
+
+    <!-- if message list is not empty in the session -->
+    {% if session['message_list'] %}
+        <h3>All messages</h3>
+        <ul>
+            {% for dict in session['message_list'] %}
+                <li> {{dict.username}} - {{dict.message}} </li>
+                {% endfor %}
+        </ul>
+    {% endif %}
+  </body>
+</html>
